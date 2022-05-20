@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-simple-tabs/static/css/main.0110cdef.css",
+    "main.js": "/react-simple-tabs/static/js/main.02315e89.js",
+    "static/js/787.35b29841.chunk.js": "/react-simple-tabs/static/js/787.35b29841.chunk.js",
+    "index.html": "/react-simple-tabs/index.html",
+    "main.0110cdef.css.map": "/react-simple-tabs/static/css/main.0110cdef.css.map",
+    "main.02315e89.js.map": "/react-simple-tabs/static/js/main.02315e89.js.map",
+    "787.35b29841.chunk.js.map": "/react-simple-tabs/static/js/787.35b29841.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0110cdef.css",
+    "static/js/main.02315e89.js"
+  ]
+}
