@@ -38,9 +38,13 @@ h1 {
     transition: all 0.5s ease-out;
 }
 
+.tabs button:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
 .tabs button:disabled {
     background: linear-gradient(245.39deg, #FC65ED -35.14%, #0500FF 143.06%);
-    font-weight: 800;
     color: white;
 }
 
