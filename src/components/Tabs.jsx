@@ -8,7 +8,7 @@ const Tabs = () => {
             id: 1,
             tabTitle: 'Tab 1',
             title: 'Title 1',
-            content: 'Las tabs se generan automáticamente a partir de un array de objetos, el cual tiene id, title y content. El id es el identificador de la tab, el title es el título de la tab y el content es el contenido de la tab.'
+            content: 'Las tabs se generan automáticamente a partir de un array de objetos, el cual tiene las propiedades: id, tabTitle, title y content.'
         },
         {
             id: 2,
@@ -30,7 +30,7 @@ const Tabs = () => {
         }
     ];
 
-    const handleTab = (e) => {
+    const handleTabClick = (e) => {
         setCurrentTab(e.target.id);
     }
 
@@ -38,7 +38,7 @@ const Tabs = () => {
         <div className='container'>
             <div className='tabs'>
                 {tabs.map((tab, i) =>
-                    <button key={i} id={tab.id} disabled={currentTab === `${tab.id}`} onClick={(handleTab)}>{tab.tabTitle}</button>
+                    <button key={i} id={tab.id} disabled={currentTab === `${tab.id}`} onClick={(handleTabClick)}>{tab.tabTitle}</button>
                 )}
             </div>
             <div className='content'>
