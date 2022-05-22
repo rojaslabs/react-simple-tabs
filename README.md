@@ -4,6 +4,6 @@ REACT simple tabs is a project where buttons and content layout are automaticall
 
 ## Live preview and screenshots
 
-[Live preview](https://rojaslabs.github.io/react-simple-tabs/)
+:point_right: [Live preview](https://rojaslabs.github.io/react-simple-tabs/)
 
 ![react-simple-tabs-preview](https://github.com/rojaslabs/react-simple-tabs/blob/main/react-simple-tabs-preview.png?raw=true)
