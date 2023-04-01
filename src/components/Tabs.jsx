@@ -42,11 +42,9 @@ const Tabs = () => {
                 )}
             </div>
             <div className='content'>
-                {tabs.map((tab, i) =>
-                    <div key={i}>
-                        {currentTab === `${tab.id}` && <div><p className='title'>{tab.title}</p><p>{tab.content}</p></div>}
-                    </div>
-                )}
+                <div>
+                    {(tabs.filter(tab => `${tab.id}` === currentTab))[0].content}
+                </div>
             </div>
         </div>
     );
